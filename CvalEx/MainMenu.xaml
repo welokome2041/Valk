@@ -1,0 +1,17 @@
+﻿<Window x:Class="CvalEx.MainMenu"
+        WindowStartupLocation="CenterScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CvalEx"
+        mc:Ignorable="d"
+        Title="MainMenu" Height="450" Width="800">
+    <Grid>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="339,220,0,0" VerticalAlignment="Top" Width="123" Click="Back_click" Height="36"/>
+        <Button Content="Соответсвия" HorizontalAlignment="Left" Margin="339,179,0,0" VerticalAlignment="Top" Width="123" Height="36"/>
+        <Button Content="Остановки" HorizontalAlignment="Left" Margin="339,138,0,0" VerticalAlignment="Top" Width="123" Height="36"/>
+        <Button Content="Маршруты" HorizontalAlignment="Left" Margin="339,97,0,0" VerticalAlignment="Top" Width="123" Height="36"/>
+
+    </Grid>
+</Window>
